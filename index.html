@@ -1,1 +1,30 @@
-index.html
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <title>🏠 Home - Ludo App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎲 Ludo Betting App</h1>
+  <button onclick="location.href='wallet.html'">💰 वॉलेट</button>
+  <button onclick="location.href='betting.html'">🎯 बेटिंग</button>
+  <button onclick="location.href='result.html'">📜 रिजल्ट</button>
+  <button onclick="resetBalance()">🔄 बैलेंस रीसेट</button>
+<button onclick="location.href='history.html'">📋 ऑर्डर हिस्ट्री</button>
+
+  <script src="script.js"></script>
+  <script><button onclick="logout()">🚪 लॉगआउट</button>
+<script>
+  function logout() {
+    localStorage.removeItem("loggedInUser");
+    location.href = "login.html";
+  }
+</script></script>
+  
+      
+    
+  </script>
+</body>
+</html>
